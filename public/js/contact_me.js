@@ -20,7 +20,7 @@ $(function() {
                 firstName = name.split(' ').slice(0, -1).join(' ');
             }
             $.ajax({
-                url: "/form",
+                url: "https://adsapp.eu/form",
                 type: "POST",
                 data: {
                     name: name,
